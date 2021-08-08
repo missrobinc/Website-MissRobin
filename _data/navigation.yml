@@ -1,6 +1,10 @@
-- name: Blog
-  link: /blog/
-- name: About
-  link: /about/
+- name: My Art
+  link: /MyArt/
+- name: Events & Workshops
+  link: /Events&Workshops/
+- name: News
+  link: /News/
+- name: About Me
+  link: /AboutMe/
 - name: Contact
-  link: /contact/
+  link: /Contact/
