@@ -1,10 +1,10 @@
 - name: My Art
-  link: /MyArt/
+  link: /myart/
 - name: Events & Workshops
-  link: /Events&Workshops/
+  link: /events_workshops/
 - name: News
   link: /News/
 - name: About Me
-  link: /AboutMe/
+  link: /aboutme/
 - name: Contact
-  link: /Contact/
+  link: /contact/
