@@ -1,14 +1,14 @@
 left_links:
 - name: My Art
-  link: /MyArt/
+  link: /gallery/
 - name: Events & Workshops
   link: /Events&Workshops/
 - name: News
   link: /News/
 - name: About Me
-  link: /AboutMe/
+  link: /about/
 - name: Contact
-  link: /Contact/
+  link: /contact/
 right_links:
   - name:
     link: https://www.facebook.com/missrobin.fineartist
