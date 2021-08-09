@@ -3,7 +3,7 @@
 
 title: Miss Robin - Fine Art Studio
 url: "https://missrobinc.github.io/Website-MissRobin"
-baseurl:
+baseurl: "https://missrobinc.github.io/Website-MissRobin"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -117,5 +117,5 @@ social_icons:
   - RSS
 
 _comments:
-  description: Text shown when sharing on social media
-  blurb: Short bio or description of this person
+  description: Miss Robin - Fine Art Studio website
+  blurb: Robin is a visual artist offering workshops in painting and drawing
