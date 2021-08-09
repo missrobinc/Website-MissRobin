@@ -10,20 +10,41 @@ image: /images/pic03-landscape-dusk.jpg
 			<h1 class="editable">About Me</h1>
 			<p class="subtext editable">I am a visual artist creating artwork that embodies my inquisitive nature and my exploration of the human experience.</p>
 		</div>
-	</div>
+	<div class="learn-more"><a href="#learn-more">Find out more <span class="arrow">&#x25BC;</span></a></div>
 </section>
 
-<section class="pad">
-	<div class="container">
-		<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Manage Staff Members</a></p>
-		<ul class="staff">
-			{% for person in site.staff_members %}
-				<li>
-					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
-					<div class="position">{{ person.position }}</div>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-</section>
+<div class="content">
+	<section class="info" id="learn-more">
+		<div class="container flex">
+			<div class="text">
+				<p class="editable">I have continued to practice and show my artwork locally and abroad. I also enjoy cultivating spaces for artists to create, connect, collaborate and leverage opportunities through my mentorship, teaching and volunteer work.  I was a volunteer coordinator of the Life Drawing program at the Cambridge Centre for the Arts from 2014-2020.  In 2018 & 2019, I was honoured to be a finalist for the Bernice Adams Visual Arts Award. </p>
+			</div>
+			<div class="image">
+				<img class="editable" src="images/pic00-me.jpg" alt="Screenshot" />
+			</div>
+		</div>
+	</section>
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<p class="editable">I currently work from my home studio in Waterloo, Ontario, though I explore Southern Ontario and travel abroad at every opportunity.  Each experience of people and place offers new and unique perspectives which continue to fuel my work. I enjoy skewing scale and proportion within my work to achieve a sense of dislocated familiarity, using light and movement to emphasize tension and causality. Through my art, I enjoy sharing my exploration of nature and the human experience with friends and the community.</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="images/pic05-ladders-balloon.jpg" alt="Screenshot" />
+			</div>
+		</div>
+	</section>
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<p class="editable">I work primarily in acrylics, charcoal and pastels, though I also enjoy mixed media, inks, watercolours and sculpture. 
+				<p class="editable">I also enjoy cultivating spaces for artists to create, connect, collaborate and leverage opportunities through my mentorship, teaching and volunteer work.  
+				<p class="editable">CV Available upon request.</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="images/pic04-lifedrawing1.jpg" alt="Screenshot" />
+			</div>
+		</div>
+	</section>
