@@ -3,17 +3,17 @@
 
 title: Miss Robin - Fine Art Studio
 url: "https://missrobinc.github.io/Website-MissRobin"
-baseurl: "https://missrobinc.github.io/Website-MissRobin"
+baseurl: 
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Miss Robin - Fine Art Studio website
+description: Artist website with Fine Art gallery and workshops
 author:
-  name:
-  email:
+  name: Robin Crank
+  email: missrobin.c@gmail.com
   twitter: # twitter username without the @ symbol
 social:
   name: Miss Robin - Fine Art Studio
