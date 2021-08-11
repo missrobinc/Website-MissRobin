@@ -5,7 +5,7 @@ description: "Acrylics, charcoal, pastel, mixed media, inks, watercolours and sc
 active: gallery
 image: /images/pic02-intertwined.jpg
 images:
- - image_path: images/pic02-intertwined.jpg
+ - image_path: /images/pic02-intertwined.jpg
    gallery-folder: /gallery/gallery01/
    gallery-name: gallery1
    gallery-date: July 2015
@@ -43,16 +43,7 @@ images:
    gallery-date: November 2014
 ---
 
-<html class="no-js" lang="en">
-<head>
-	<meta content="charset=utf-8">
-    <link rel="stylesheet" href="{{ "/css/selena.css" | prepend: site.baseurl }}">
-</head>
-
-
-    <body class="gallery">
- 
-	<section id="content" role="main">
+<section id="content" role="main">
 		<div class="wrapper">
 	
 			<h2>{{page.title}}</h2>
@@ -66,8 +57,8 @@ images:
                          <figure class="effect-selena">
 					<header class='gallery-icon'>
 		       
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+<a href="{{ site.baseurl }}{{ site.baseurl }}{{ image.gallery-folder }}">
+<img src="{{ site.baseurl }}{{ site.baseurl }}{{ image.image_path }}"></a>
 
 					</header>	
 					<figcaption class='gallery-caption'>
